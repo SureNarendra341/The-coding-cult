@@ -1,0 +1,92 @@
+.page-container {
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container.home-page {
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-link {
+  margin-bottom: 2rem;
+}
+
+.page-container.terms-page {
+  align-items: flex-start;
+}
+
+.goto-terms {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: purple;
+  cursor: pointer;
+}
+
+.editable-title-wrapper {
+  position: relative;
+}
+
+.editable-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.edit-input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.edit-button, .save-button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.editable-content {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.editable-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.edit-textarea {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  resize: vertical;
+  height: 300px;
+}
+
+.content-gap {
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem;
+  }
+
+  .editable-title {
+    font-size: 1.5rem;
+  }
+
+  .edit-textarea {
+    height: 200px;
+  }
+}

@@ -1,0 +1,14 @@
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+   
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

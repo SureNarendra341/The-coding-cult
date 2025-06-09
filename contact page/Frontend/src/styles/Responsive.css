@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form .input-row {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-section {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
